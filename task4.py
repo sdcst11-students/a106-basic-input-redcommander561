@@ -16,3 +16,7 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
+height = int(input("height: "))
+radius = int(input("radius: "))
+
+print("Surface area is", 3.14 * radius(radius + height**2 + radius**2)**0.5 )

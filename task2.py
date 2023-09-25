@@ -11,3 +11,9 @@
 # volume
 #
 # test output radius of 3 should give volume of 113.09733552923254
+
+data = input("Please enter a number and then press the Enter Key")
+data = int(data)
+V = 1.33333333333333 * 3.14 * data **3
+
+print(f"{V}")
